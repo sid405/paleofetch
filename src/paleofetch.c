@@ -234,6 +234,8 @@ int main(int argc, char **argv)
         }
         char **cached_list = get_cached_value();
 
+        puts("\n");
+
         for(uint i = 0; i < which_bigger; i++)
         {
             // if i > count, we will print only logo, as we already are iterating on it's size.
