@@ -17,7 +17,7 @@
 
 #if defined(__MACH__) || defined(__APPLE__)
 #include "macintosh.h"
-#include "logos/macintosh_logo.h"
+#include "logos/cloudflare_logo.h"
 #endif
 
 struct conf {
@@ -269,6 +269,9 @@ int main(int argc, char **argv)
             }
             puts("");
         }
+
+        puts("\n");
+
         return ret;
 }
 
