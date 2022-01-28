@@ -1,6 +1,9 @@
 # paleofetch-bsd
 
-Forked from [https://gitlab.com/DesantBucie/paleofetch-mac](https://gitlab.com/DesantBucie/paleofetch-mac)
+A custom fork of paleofetch that works in macOS and a custom logo. 
+I didn't write this, credits to: https://gitlab.com/DesantBucie/paleofetch-mac
+
+---
 
 A rewrite of [neofetch](https://github.com/dylanaraps/neofetch) in C started by [ss7m for linux](https://github.com/ss7m/paleofetch).
 
