@@ -1,6 +1,6 @@
-# paleofetch-bsd
+# paleofetch
 
-A custom fork of paleofetch that works in macOS and a custom logo. 
+A custom fork of paleofetch that works on macOS and a custom logo. 
 I didn't write this, credits to: https://gitlab.com/DesantBucie/paleofetch-mac
 
 ---
