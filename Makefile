@@ -4,11 +4,9 @@ CFLAGS=-Wall -Wextra -Wpedantic -framework Cocoa -framework IOKit
 CC=clang
 OPT= -Ofast
 
-file: clean 
+default: clean 
 		@echo "Compiling paleofetch, please wait..."
 		@$(CC) $(SRC) $(CFLAGS) $(OPT) $(BIN)
-install: file
-		@sudo cp paleofetch /usr/local/bin
 clean:
 		@echo "Cleaning..."	
 		@rm -f paleofetch

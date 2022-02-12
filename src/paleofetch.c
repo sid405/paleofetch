@@ -17,7 +17,8 @@
 
 #if defined(__MACH__) || defined(__APPLE__)
 #include "macintosh.h"
-#include "logos/cloudflare_logo.h"
+// #include "logos/cloudflare_logo.h"
+#include "logos/latte.h"
 #endif
 
 struct conf {
